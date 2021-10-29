@@ -2,6 +2,7 @@
 ノックデザインのコーディングテンプレート
 
 ## ディレクトリ構造
+~~~
 nd_codeing_template/
 └── images/
     ├── footer/ （フッターで使う画像を格納）
@@ -18,9 +19,11 @@ nd_codeing_template/
     └── style/ （基本的に編集していくディレクトリ）
         ├── _style.scss/ （基本的に自由に書き込んで良いファイル）
         └── _variable.scss/ （変数を指定するファイル）
-        
+~~~
+
 ## 命名ルール
 - RSCSSというCSS設計手法をもとに命名ルールを策定しております
+
 ### RSCSSの使い方
 RSCSSには主に以下の概念があります。
 - Components（コンポーネント）
