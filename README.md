@@ -32,7 +32,7 @@ RSCSSには主に以下の概念があります。
 ### Components（コンポーネント）
 Components（コンポーネント）はパーツの一番大枠の要素
 Components（コンポーネント)は単語ふたつをハイフンで連結します。
-　~~~scss
+　~~~sass
 .login-form {
   /* ... */ 
 }
@@ -42,7 +42,7 @@ Components（コンポーネント)は単語ふたつをハイフンで連結し
 Elements（エレメンツ）はコンポーネントの中の要素
 Elements（エレメンツ)は単語ひとつで構成されます。
 (下の「.field」「.action」がエレメンツ)
- 　~~~scss
+ 　~~~sass
 .login-form {
   .name {
     /* ... */ 
@@ -56,7 +56,7 @@ Elements（エレメンツ)は単語ひとつで構成されます。
  ### Variants（バリアント）
  Variants（バリアント）は汎用的に使われる要素とは一部異なる場合に使います。
  Variants（バリアント）の前にはハイフンが付きます。
- 　~~~scss
+ 　~~~sass
 .entry-button {
   &.-wide {
     /* ... */ 
